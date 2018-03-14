@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.main {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(17, 3, 19);
+	padding: 10px 0;
+}
+
+h1 {
+	text-align: center;
+	color: rgba(37,225,7,1.00);
+}
+
+.two {
+	position: relative;
+	padding: 0 15%;
+	height: auto;
+	width: 100%;
+	background-color: rgba(176,238,210,0.82);
+	/* float: left; */
+}
+.test {
+	position: relative;
+	
+	height: auto;
+	width: 100%;
+	background-color: rgba(176,238,210,0.82);
+	/* float: left; */
+}
+
+.four {
+	position: relative;
+    height: 150px;
+    width: 25%;
+    color: rgba(37,225,7,1.00);
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    background: radial-gradient(red, black);
+    /* background-color: white; */
+    margin: 8.5px;
+}
+
+.five {
+	position: relative;
+	height: 250px;
+    width: 300px;
+    color: rgba(37,225,7,1.00);
+    /* float: left; */
+    display: inline-block;
+    padding: 5px;
+    background: radial-gradient(red, black);
+    /* background-color: white; */
+    margin: 8.5px;
+	
+}
+
+.bigboy {
+    width: 300px;
+    height: 600px;
+	
+	
+}
+
+@media (min-width: 768px) {
+	 .four {
+		width: 12.5%;
+	}
+	 
+	/* .five {
+		width: 12.5%;
+	} */
+	/* .bigboy {
+		width: 41%;
+	} */
+}
